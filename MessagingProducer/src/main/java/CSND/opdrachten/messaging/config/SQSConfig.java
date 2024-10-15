@@ -1,7 +1,6 @@
 package CSND.opdrachten.messaging.config;
 
 import com.amazonaws.auth.AWSStaticCredentialsProvider;
-import com.amazonaws.auth.BasicAWSCredentials;
 import com.amazonaws.auth.BasicSessionCredentials;
 import com.amazonaws.services.sqs.AmazonSQSAsync;
 import com.amazonaws.services.sqs.AmazonSQSAsyncClientBuilder;
