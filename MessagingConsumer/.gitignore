@@ -33,4 +33,4 @@ build/
 .vscode/
 
 ### aws credentials ###
-application.credentials.properties
+src/main/resources/application.credentials.properties
