@@ -6,6 +6,14 @@ import requests
 
 def perform_get(baseurl):
     """Perform get request"""
+    statusCode = requests.get(baseurl).status_code
+    match statusCode:
+        case 200:
+            print("success")
+        case 500:
+            print("Internal Server Error")
+        case _:
+            print("Other status code")
 
     # implement this
 
